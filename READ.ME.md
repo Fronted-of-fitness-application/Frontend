@@ -1,42 +1,84 @@
-- Project Title: Frontend of Fitness Tracker Application.
+# Fitness Tracker — Frontend
 
-- Team Name: 200s
+## Team Information
+**Team Name:** 200s  
+**Team Members:**  
+- Nour Saad  
+- Haya Mazyad  
+- Lynn Oueidat  
+- Rama Alassi  
 
-- Team members: Nour Saad, Haya Mazyad, Lynn Oueidat, Rama Alassi.
-- Link to the deployed application:
+---
 
-- Data Entities: Users, Exercises, Workouts, and Progress Logs.
+## Project Overview
+This repository contains the **frontend** of our Fitness Tracker web application.  
+It allows users to explore exercises, track their workouts, and monitor progress through a clean and responsive interface.
 
--We added a mock data file in the data folder, which includes arrays for Users, Exercises, Workouts, and Progress Logs. These arrays are imported by the pages and used to simulate user interaction with the web application, as there is no backend to store the information yet.
+You can preview our application in action here:  
+`assets/GIF.gif`
 
-Detailed setup instructions for running the frontend locally:
-terminal:
-	1 - change the directory to the project folder
-	2 - run the command: npm install
-	3 - run the command: npm run dev
-copy the provided link and paste it the browser of choice.
+---
 
-Workload Division:
-To ensure consistency in theme and design across all pages, we collaboratively worked on the shared files (index.css, index.html, App.jsx, components, etc.). However, the pages were divided equally among us as follows:
+## Live Demo
+**Link to the deployed application:** _coming soon_
 
-Nour Saad:
-1 - LogWorkout
-2 - UserProgress
-3 - NotFound
+---
 
-Rama Alassi:
-1 - Homepage
-2 - Login 
-3 - Register
+## Data Entities
+The application currently simulates a backend using mock data for the following entities:
+- Users  
+- Exercises  
+- Workouts  
+- Progress Logs  
 
-Lynn Oueidat:
-1 - ExerciseDetails
-2 - ExerciseLibrary
+A `mockData.js` file is included in the `/data` folder. It contains arrays representing the entities listed above, which are imported by the pages to mimic user interaction and data persistence since no backend is connected yet.
 
+---
 
-Haya Mazyad:
-1 - WorkoutDashboard
-2 - WorkoutDetails
+## Local Setup Instructions
 
-You can check the overview of our project  in the project file:
-assets/GIF.gif
+To run the frontend locally:
+
+1. Navigate to the project directory:
+   ```bash
+   cd your-project-folder
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Copy the local server link that appears in your terminal and paste it into your preferred browser.
+
+---
+
+## Workload Division
+
+To maintain consistency in theme and design, we collaborated on all shared files  
+(`index.css`, `index.html`, `App.jsx`, `components/`, etc.).  
+Each member was responsible for specific pages as follows:
+
+### Nour Saad
+- LogWorkout  
+- UserProgress  
+- NotFound  
+
+### Rama Alassi
+- Homepage  
+- Login  
+- Register  
+
+### Lynn Oueidat
+- ExerciseDetails  
+- ExerciseLibrary  
+
+### Haya Mazyad
+- WorkoutDashboard  
+- WorkoutDetails  
+
